@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="?android:attr/colorPrimaryDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_header"
+            android:text="exemplo de capitulo"/>
+        <TextView
+            android:textColor="?android:attr/colorPrimaryDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text=" - "/>        <TextView
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_header"
+            android:text="exemplo de versiculo"/>
+    </LinearLayout>
+    <TextView
+        android:textSize="@dimen/text_size_body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="isto é um exemplo, isto é um exemplo..."/>
+</LinearLayout>

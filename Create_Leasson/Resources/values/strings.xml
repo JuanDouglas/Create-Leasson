@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Create Leasson</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+	<string name="bible">Bible</string>
+	<string name="quran">Quran</string>
+	<string name="useful_options">Useful Options</string>
+	<string name="ask_for_permissions">There are still permissions to be accepted</string>
+	<string name="lets_go">Ok Let´s go!</string>
+	<string name="permisson_denied">Ok we still trust you!</string>
+	<string name="set_bible">Set Bible file</string>
+	<string name="set_quran">Set Quran File</string>
+	<string name="initial_steps">Initial steps</string>
+	<string name="cancel">Cancel</string>
+	<string name="continue_text">Continue</string>
+</resources>
