@@ -30,7 +30,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="No more leassons!"
+                    android:text="@string/bad_message"
                     android:id="@+id/BadText"/>
             </LinearLayout>
         </LinearLayout>

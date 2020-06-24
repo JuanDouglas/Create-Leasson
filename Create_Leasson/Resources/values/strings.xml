@@ -9,9 +9,12 @@
 	<string name="ask_for_permissions">There are still permissions to be accepted</string>
 	<string name="lets_go">Ok Let´s go!</string>
 	<string name="permisson_denied">Ok we still trust you!</string>
-	<string name="set_bible">Set Bible file</string>
-	<string name="set_quran">Set Quran File</string>
 	<string name="initial_steps">Initial steps</string>
 	<string name="cancel">Cancel</string>
 	<string name="continue_text">Continue</string>
+	<string name="bad_message">No more leassons!</string>
+	<string name="lesson_name">Leasson name</string>
+	<string name="not_implemented">We´re already taking care of that, sorry for the inconvenience.</string>
+	<string name="not_ready">OK! when you´re ready just go back</string>
+	<integer name="loading_animation_duration">45</integer>
 </resources>

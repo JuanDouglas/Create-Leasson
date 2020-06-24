@@ -61,11 +61,12 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddLeassonActivity.cs" />
+    <Compile Include="AddBibleLessonActivity.cs" />
+    <Compile Include="AddLessonDialog.cs" />
+    <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="SettingsActivity.cs" />
     <Compile Include="Adpaters\LessonAdpater.cs" />
     <Compile Include="MainActivity.cs" />
-    <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -153,7 +154,7 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\alertdialog_loading.xml">
+    <AndroidResource Include="Resources\layout\content_loading.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
@@ -300,6 +301,21 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\animation_loading.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\content_add_leasson.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\activity_add_bible_lesson.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\round.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

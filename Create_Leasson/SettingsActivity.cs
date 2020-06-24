@@ -14,6 +14,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Android.Widget;
+using Android.Graphics.Drawables;
+
 namespace Create_Leasson
 {
     [Activity(Label = "Settings")]
@@ -42,6 +44,7 @@ namespace Create_Leasson
                     }
                 }).Show();
             }
+
         }
 
         public override bool OnOptionsItemSelected(IMenuItem item)
